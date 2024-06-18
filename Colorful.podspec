@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Colorful'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Colorful.'
+  s.summary          = '继续尝试新建一个七彩虹的pod库' #'A short description of Colorful.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,6 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Colorful/Classes/**/*'
+  
+  s.swift_versions = '5.0'
   
   # s.resource_bundles = {
   #   'Colorful' => ['Colorful/Assets/*.png']

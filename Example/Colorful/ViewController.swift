@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import Colorful
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        guard let vc = AppUtils.curViewController() else {
+            return
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
