@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Colorful_Example' do
+  pod 'Colorful', :path => '../'
+
+  target 'Colorful_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
